@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>Scheglov.Calculator.App</RootNamespace>
+    <AssemblyName>Scheglov.Calculator.App</AssemblyName>
+    <Authors>Щеглов Даниил Никитич</Authors>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Scheglov.Calculator.Core\Scheglov.Calculator.Core.csproj" />
+  </ItemGroup>
+
+</Project>
